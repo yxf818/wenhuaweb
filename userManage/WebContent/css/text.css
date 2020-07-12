@@ -1,0 +1,59 @@
+body {
+  background: #000;
+}
+body .main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 60px;
+}
+body .main h2 {
+  color: #B5B6BA;
+  font-size: 26px;
+  margin-top: 40px;
+}
+body .main p {
+  color: #B5B6BA;
+  font-size: 18px;
+  margin-top: 80px;
+}
+body .main .inputGroup div {
+  display: flex;
+  align-items: flex-end;
+}
+body .main .inputGroup input {
+  width: 400px;
+  height: 60px;
+  text-indent: 40px;
+  background: transparent;
+  outline: none;
+  border: none;
+  color: #B5B6BA;
+  border-bottom: 2px solid #4A4D5C;
+  margin-top: 20px;
+}
+body .main .inputGroup .inputIcon {
+  width: 40px;
+  height: 40px;
+}
+body .main .inputGroup .verifyPic {
+  width: 100px;
+  height: 60px;
+}
+body .main .inputGroup .verifyCode input {
+  width: 300px;
+}
+body .main .inputGroup .btn {
+  width: 400px;
+  display: block;
+  height: 60px;
+  border-radius: 40px;
+  margin-top: 30px;
+  color: #fff;
+  text-align: center;
+  line-height: 60px;
+  background: linear-gradient(to right, #36C9AD, #1A98D2);
+}
+
+/*# sourceMappingURL=text.css.map */

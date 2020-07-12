@@ -1,0 +1,48 @@
+/*main_contact*/
+html{ SCROLLBAR-FACE-COLOR: #538ec6; SCROLLBAR-HIGHLIGHT-COLOR: #dce5f0; SCROLLBAR-SHADOW-COLOR: #2c6daa; SCROLLBAR-3DLIGHT-COLOR: #dce5f0; SCROLLBAR-ARROW-COLOR: #2c6daa;  SCROLLBAR-TRACK-COLOR: #dce5f0;  SCROLLBAR-DARKSHADOW-COLOR: #dce5f0; overflow-x:hidden;}
+.main_contact1{ float:left;}
+.main_images{ border:1px #cccccc solid; padding:2px;}
+.main_changes{ background:#ededb2; padding:4px 0;}
+.main_about{ padding:0 10px; float:left;}
+.main_kuang{background:url(../images/bg1.jpg) repeat-x top left; font-weight:bold;}
+.main_nav_bg{ background:url(../images/contact_bg.jpg) repeat-x; height:25px; padding-top:2px; float:left;}
+.main_td1{background:url(../images/copybg.jpg) no-repeat left; height:44px; color:#bb1414; text-align:left; padding:17px 0 0 22px;}
+a.main_td2:link,a.main_td2:visited{ color:#666666}
+a.main_td2:hover,a.main_td2:active{color:#bb1414}
+
+#searchmain{ font-size:12px;}
+#search{ font-size:12px; background:#548fc9; margin:10px 10px 0 0; display:inline; width:100%; color:#FFF; float:left}
+#search form span{height:40px; line-height:40px; padding:0 0px 0 10px; float:left;}
+#search form input.text-word{height:24px; line-height:24px; width:180px; margin:8px 0 6px 0; padding:0 0px 0 10px; float:left; border:1px solid #FFF;}
+#search form input.text-but{height:24px; line-height:24px; width:55px; background:url(${pageContext.request.contextPath }/images/main/list_input.jpg) no-repeat left top; border:none; cursor:pointer; font-family:"Microsoft YaHei","Tahoma","Arial",'ËÎÌו'; color:#666; float:left; margin:8px 0 0 6px; display:inline;}
+#search a.add{ background:url(${pageContext.request.contextPath }/images/main/add.jpg) no-repeat -3px 7px #548fc9; padding:0 10px 0 26px; height:40px; line-height:40px; font-size:14px; font-weight:bold; color:#FFF; float:right}
+#search a:hover.add{ text-decoration:underline; color:#d2e9ff;}
+#main-tab{ border:1px solid #eaeaea; background:#FFF; font-size:12px;}
+#main-tab th{ font-size:12px; background:url(${pageContext.request.contextPath }/images/main/list_bg.jpg) repeat-x; height:32px; line-height:32px;}
+#main-tab td{ font-size:12px; line-height:40px;}
+#main-tab td a{ font-size:12px; color:#548fc9;}
+#main-tab td a:hover{color:#565656; text-decoration:underline;}
+#tta{ border:1px solid #eaeaea; background:#FFF; font-size:12px;}
+#tta th{ font-size:12px; background:url(${pageContext.request.contextPath }/images/main/list_bg.jpg) repeat-x; height:32px; line-height:32px;}
+#tta td{ font-size:12px; line-height:40px;}
+#tta td a{ font-size:12px; color:#548fc9;}
+#tta td a:hover{color:#565656; text-decoration:underline;}
+.bordertop{ border-top:1px solid #ebebeb}
+.borderright{ border-right:1px solid #ebebeb}
+.borderbottom{ border-bottom:1px solid #ebebeb}
+.borderleft{ border-left:1px solid #ebebeb}
+.gray{ color:#dbdbdb;}
+td.fenye{position:fixed; bottom:10px;right:10px;padding:10px 0 0 0; text-align:right;}
+.bggray{ background:#f9f9f9}
+*{padding:0px;margin:0px;}
+.pop {  display: none;  width: 650px; min-height:260px;  max-height: 600px;  height:260px;  position: absolute;  top: 0;  left: 0;  bottom: 0;  right: 0;  margin: auto;  padding: 25px;  z-index: 130;  border-radius: 8px;  background-color: #fff;  box-shadow: 0 3px 18px rgba(100, 0, 0, .5);  }
+.pop-top{  height:40px;  width:100%;  border-bottom: 1px #E5E5E5 solid;  }
+.pop-top h2{  float: left;  display:black}
+.pop-top span{  float: right;  cursor: pointer;  font-weight: bold; display:black}
+.pop-foot{  height:50px;  line-height:50px;  width:100%;  border-top: 1px #E5E5E5 solid;  text-align: right;  }
+.pop-cancel, .pop-ok {  padding:8px 15px;  margin:15px 5px;  border: none;  border-radius: 5px;  background-color: #337AB7;  color: #fff;  cursor:pointer;  }
+.pop-cancel {  background-color: #FFF;  border:1px #CECECE solid;  color: #000;  }
+.pop-content{  height: 380px;  }
+.pop-content-left{  float: left;  }
+.pop-content-right{  width:310px;  float: left;  padding-top:20px;  padding-left:20px;  font-size: 16px;  line-height:35px;  }
+.bgPop{  display: none;  position: absolute;  z-index: 129;  left: 0;  top: 0;  width: 100%;  height: 100%;  background: rgba(0,0,0,.2);  }
